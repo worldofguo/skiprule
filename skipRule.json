@@ -162,8 +162,11 @@
                     "rules": [{
 							"activityIds":["top.cycdm.cycapp.MainActivity"],
                             "matches": ["[name=\"android.widget.ImageView\"][left>1000][bottom<2500]"],
-                            "snapshotUrls": ["https://i.gkd.li/snapshot/1767371083236"]
-							
+                            "snapshotUrls": ["https://i.gkd.li/snapshot/1767371083236"]				
+                        }, {
+							"activityIds":["top.cycdm.cycapp.MainActivity"],
+                            "matches": ["[text=\"我知道了\"]"],
+                            "snapshotUrls": ["https://i.gkd.li/snapshot/1767447147839"]				
                         }, {
 							"activityIds":["com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoActivity"],
                             "matches": ["[name=\"android.widget.Image\"][text=\"\"][left>1000][bottom<2500]"],
