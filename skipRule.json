@@ -1,1 +1,189 @@
-{"id":1,"name":"Mexis","version":49,"author":"mexis","globalGroups":[],"categories":[],"apps":[{"id":"com.mymoney","name":"随手记","groups":[{"name":"开屏广告","key":0,"rules":[{"matches":["[id=\"com.mymoney:id/anythink_myoffer_splash_skip\"]"],"snapshotUrls":["https://i.gkd.li/import/13542706"]}]}]},{"id":"com.ea.games.r3_row","name":"Real Racing 3","groups":[{"name":"RewardADs","key":0,"actionCd":3000,"actionDelay":300,"rules":[{"matches":["[text=\"Close\"]"]},{"matches":["[text=\"close\"]"]},{"matches":["[text=\"Close button\"]"]}]},{"name":"RESUME","key":2,"actionCd":3000,"actionDelay":300,"rules":[{"matches":["[text=\"RESUME\"]"]}]},{"name":"空格","key":3,"actionCd":3000,"actionDelay":300,"rules":[{"matches":["[text=\"\"]"]}]},{"name":"txt","key":4,"actionCd":3000,"actionDelay":300,"rules":[{"key":0,"matches":["[text=\"Close\"]"]},{"key":1,"matches":["[text=\"close\"]"]},{"key":2,"matches":["[text=\"Close button\"]"]},{"key":3,"matches":["[text=\"RESUME\"]"]},{"key":7,"matches":["[text=\"Resume\"]"]},{"key":4,"matches":["[text=\"恢复\"]"]},{"key":5,"matches":["[text=\"\"]"]},{"key":6,"matches":["[text=\"\"]"]}]},{"name":"空","key":5,"actionCd":3000,"actionDelay":300,"rules":[{"key":0,"matches":["[text=\"\"][name=\"android.widget.Button\"][id=null][left>1000][height<200][clickable=true][bottom<1000]"]},{"key":1,"matches":["[text=\"\"][name=\"android.widget.TextView\"][id=null][left>2000][height<200][clickable=true][bottom<1000]"]},{"key":2,"matches":["[text=\"\"][name=\"android.widget.Image\"][id=null][left>2000][height<200][clickable=true][bottom<1000]"]},{"key":3,"matches":["[id=\"com.ea.games.r3_row:id/ia_iv_close_button\"]"]}]}]},{"id":"com.cyl.musiccy.ou","name":"OmoFun","groups":[{"name":"omo","key":0,"rules":[{"key":1,"matches":["[text=\"5s\"]"],"activityIds":["com.cyl.musiccy.ou.MainActivity"]},{"key":2,"matches":["[text=\"跳过\"]"]}]}]},{"id":"com.jiaohua_browser","name":"JMComic2","groups":[{"name":"[ChangeMe]规则名称-2024-01-22 22:21:38","key":0,"desc":"[ChangeMe]本规则由GKD网页端审查工具生成","rules":[{"matches":["[text=\"\"]"],"activityIds":["com.jiaohua_browser.MainActivity"]}]}]},{"id":"com.mxtech.videoplayer.ad","name":"MX 播放器","groups":[{"name":"1","key":0,"desc":"1","rules":[{"matches":["[desc=\"Interstitial close button\"]"],"snapshotUrls":["https://i.gkd.li/i/14455709"],"exampleUrls":["https://m.gkd.li/56533666/7ce3cf06-8560-413c-b278-8c870270ef17"]},{"matches":["[vid=\"native_ad_close_button\"]"],"quickFind":true,"snapshotUrls":["https://i.gkd.li/i/14455717"],"exampleUrls":["https://m.gkd.li/56533666/aa5c2e62-0a0f-4c8a-830f-b8459a724cd2"]},{"matches":["[id=\"com.mxtech.videoplayer.ad:id/native_ad_close_button\"]"],"quickFind":true,"snapshotUrls":["https://i.gkd.li/i/14455730"],"exampleUrls":["https://m.gkd.li/56533666/1dd29c34-0a23-421d-a53b-6475106b50dd"]}]}]}]}
+{
+    "apps": [{
+            "groups": [{
+                    "key": 0,
+                    "name": "开屏广告",
+                    "rules": [{
+                            "matches": ["[id=\"com.mymoney:id/anythink_myoffer_splash_skip\"]"],
+                            "snapshotUrls": ["https://i.gkd.li/import/13542706"]
+                        }
+                    ]
+                }
+            ],
+            "id": "com.mymoney",
+            "name": "随手记"
+        }, {
+            "groups": [{
+                    "actionCd": 3000,
+                    "actionDelay": 300,
+                    "key": 0,
+                    "name": "RewardADs",
+                    "rules": [{
+                            "matches": ["[text=\"Close\"]"]
+                        }, {
+                            "matches": ["[text=\"close\"]"]
+                        }, {
+                            "matches": ["[text=\"Close button\"]"]
+                        }
+                    ]
+                }, {
+                    "actionCd": 3000,
+                    "actionDelay": 300,
+                    "key": 2,
+                    "name": "RESUME",
+                    "rules": [{
+                            "matches": ["[text=\"RESUME\"]"]
+                        }
+                    ]
+                }, {
+                    "actionCd": 3000,
+                    "actionDelay": 300,
+                    "key": 3,
+                    "name": "空格",
+                    "rules": [{
+                            "matches": ["[text=\"\"]"]
+                        }
+                    ]
+                }, {
+                    "actionCd": 3000,
+                    "actionDelay": 300,
+                    "key": 4,
+                    "name": "txt",
+                    "rules": [{
+                            "key": 0,
+                            "matches": ["[text=\"Close\"]"]
+                        }, {
+                            "key": 1,
+                            "matches": ["[text=\"close\"]"]
+                        }, {
+                            "key": 2,
+                            "matches": ["[text=\"Close button\"]"]
+                        }, {
+                            "key": 3,
+                            "matches": ["[text=\"RESUME\"]"]
+                        }, {
+                            "key": 7,
+                            "matches": ["[text=\"Resume\"]"]
+                        }, {
+                            "key": 4,
+                            "matches": ["[text=\"恢复\"]"]
+                        }, {
+                            "key": 5,
+                            "matches": ["[text=\"\"]"]
+                        }, {
+                            "key": 6,
+                            "matches": ["[text=\"\"]"]
+                        }
+                    ]
+                }, {
+                    "actionCd": 3000,
+                    "actionDelay": 300,
+                    "key": 5,
+                    "name": "空",
+                    "rules": [{
+                            "key": 0,
+                            "matches": ["[text=\"\"][name=\"android.widget.Button\"][id=null][left>1000][height<200][clickable=true][bottom<1000]"]
+                        }, {
+                            "key": 1,
+                            "matches": ["[text=\"\"][name=\"android.widget.TextView\"][id=null][left>2000][height<200][clickable=true][bottom<1000]"]
+                        }, {
+                            "key": 2,
+                            "matches": ["[text=\"\"][name=\"android.widget.Image\"][id=null][left>2000][height<200][clickable=true][bottom<1000]"]
+                        }, {
+                            "key": 3,
+                            "matches": ["[id=\"com.ea.games.r3_row:id/ia_iv_close_button\"]"]
+                        }
+                    ]
+                }
+            ],
+            "id": "com.ea.games.r3_row",
+            "name": "Real Racing 3"
+        }, {
+            "groups": [{
+                    "key": 0,
+                    "name": "omo",
+                    "rules": [{
+                            "activityIds": ["com.cyl.musiccy.ou.MainActivity"],
+                            "key": 1,
+                            "matches": ["[text=\"5s\"]"]
+                        }, {
+                            "key": 2,
+                            "matches": ["[text=\"跳过\"]"]
+                        }
+                    ]
+                }
+            ],
+            "id": "com.cyl.musiccy.ou",
+            "name": "OmoFun"
+        }, {
+            "groups": [{
+                    "desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+                    "key": 0,
+                    "name": "[ChangeMe]规则名称-2024-01-22 22:21:38",
+                    "rules": [{
+                            "activityIds": ["com.jiaohua_browser.MainActivity"],
+                            "matches": ["[text=\"\"]"]
+                        }
+                    ]
+                }
+            ],
+            "id": "com.jiaohua_browser",
+            "name": "JMComic2"
+        }, {
+            "groups": [{
+                    "desc": "1",
+                    "key": 0,
+                    "name": "1",
+                    "rules": [{
+                            "exampleUrls": ["https://m.gkd.li/56533666/7ce3cf06-8560-413c-b278-8c870270ef17"],
+                            "matches": ["[desc=\"Interstitial close button\"]"],
+                            "snapshotUrls": ["https://i.gkd.li/i/14455709"]
+                        }, {
+                            "exampleUrls": ["https://m.gkd.li/56533666/aa5c2e62-0a0f-4c8a-830f-b8459a724cd2"],
+                            "matches": ["[vid=\"native_ad_close_button\"]"],
+                            "quickFind": true,
+                            "snapshotUrls": ["https://i.gkd.li/i/14455717"]
+                        }, {
+                            "exampleUrls": ["https://m.gkd.li/56533666/1dd29c34-0a23-421d-a53b-6475106b50dd"],
+                            "matches": ["[id=\"com.mxtech.videoplayer.ad:id/native_ad_close_button\"]"],
+                            "quickFind": true,
+                            "snapshotUrls": ["https://i.gkd.li/i/14455730"]
+                        }
+                    ]
+                }
+            ],
+            "id": "com.mxtech.videoplayer.ad",
+            "name": "MX 播放器"
+        }, {
+            "groups": [{
+                    "desc": "skip cycity anime ads",
+                    "key": 0,
+                    "name": "ads",
+                    "rules": [{
+							"activityIds":["top.cycdm.cycapp.MainActivity"],
+                            "matches": ["[name=\"android.widget.ImageView\"][left>1000][bottom<2500]"],
+                            "snapshotUrls": ["https://i.gkd.li/snapshot/1767371083236"]
+							
+                        }, {
+							"activityIds":["com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoActivity"],
+                            "matches": ["[name=\"android.widget.Image\"][text=\"\"][left>1000][bottom<2500]"],
+                            "snapshotUrls": ["https://i.gkd.li/snapshot/1767371031187"]
+                        }, {
+							"activityIds":["com.sigmob.sdk.base.common.PortraitTransparentAdActivity"],
+                            "matches": ["[id=\"close_btn\"]"],
+                            "snapshotUrls": ["https://i.gkd.li/snapshot/1767370980668"]
+                        },
+                    ]
+                }
+            ],
+            "id": "com.yaxisvip.pubgtool.iueg",
+            "name": "cycity ani"
+        }
+    ],
+    "author": "mexis",
+    "categories": [],
+    "globalGroups": [],
+    "id": 1,
+    "name": "Mexis",
+    "version": 49
+}
