@@ -180,7 +180,22 @@
                 }
             ],
             "id": "com.yaxisvip.pubgtool.iueg",
-            "name": "cycity ani"
+            "name": "次元城动画"
+        }, {
+            "groups": [{
+                    "desc": "豆瓣广告",
+                    "key": 1,
+                    "name": "开屏5s跳过",
+                    "rules": [{
+						    "fastQuery": true,
+                            "activityIds": ["com.douban.frodo.activity.SplashActivity"],
+                            "matches": ["[vid=\"menu_notification\"][name=\"android.widget.FrameLayout\"][width>0]"]
+                        }
+                    ]
+                }
+            ],
+            "id": "com.douban.frodo",
+            "name": "豆瓣"
         }
     ],
     "author": "mexis",
